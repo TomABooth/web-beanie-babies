@@ -12,3 +12,8 @@ export async function getBeanies() {
     const response = await query;
     return response;
 }
+
+export async function getAstroSigns() {
+    const response = await client.from('beanie_baby_astro_signs').select();
+    return response;
+}

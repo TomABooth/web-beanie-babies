@@ -1,3 +1,10 @@
+export function renderAstroSignOption(astroSign) {
+    const option = document.createElement('option');
+    option.value = astroSign.name;
+    option.textContent = astroSign.name;
+    return option;
+}
+
 export function renderBeanie(beanie) {
     const li = document.createElement('li');
     li.classList.add('card');
