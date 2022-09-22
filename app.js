@@ -1,4 +1,5 @@
 /* Imports */
+import { getAstroSigns, getBeanies } from './fetch-utils.js';
 
 /* Get DOM Elements */
 
