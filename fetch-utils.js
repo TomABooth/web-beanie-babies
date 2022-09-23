@@ -22,6 +22,7 @@ export async function getBeanies(name, astroSign) {
     }
 
     const response = await query;
+    console.log(response);
     return response;
 }
 
